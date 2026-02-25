@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <canvas id="particles"></canvas>
     <div class="loader">
         <div class="loader-content">
             <div class="loader-ring"></div>
@@ -39,6 +40,9 @@
                 <span></span>
                 <span></span>
             </div>
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
         </div>
     </nav>
 
@@ -47,7 +51,7 @@
             <div class="hero-content">
                 <span class="hero-greeting">Hello, I'm</span>
                 <h1 class="hero-name">Abdul Javid</h1>
-                <h2 class="hero-title">AI Engineer <span class="title-separator">|</span> Data Analyst <span class="title-separator">|</span> Android Developer</h2>
+                <h2 class="hero-title"><span class="typing-text"></span><span class="cursor">|</span></h2>
                 <p class="hero-tagline">Building AI-powered mobile applications, real-time emergency systems, and enterprise-level data analytics platforms.</p>
                 <div class="hero-cta">
                     <a href="#projects" class="btn btn-primary">
@@ -231,10 +235,10 @@
                 <h2 class="section-title">Featured Projects</h2>
             </div>
             <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="android">Android</button>
-                <button class="filter-btn" data-filter="ai">AI/ML</button>
-                <button class="filter-btn" data-filter="bi">BI/Dashboard</button>
+                <button class="filter-btn active" data-filter="all"><span>All</span></button>
+                <button class="filter-btn" data-filter="android"><span>Android</span></button>
+                <button class="filter-btn" data-filter="ai"><span>AI/ML</span></button>
+                <button class="filter-btn" data-filter="bi"><span>BI/Dashboard</span></button>
             </div>
             <div class="projects-grid">
                 <div class="project-card glass-card" data-category="android ai">
