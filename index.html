@@ -1,723 +1,2473 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Abdul Javid - AI Developer | Data Analyst | Android App Developer Portfolio">
-    <meta name="keywords" content="AI Developer, Data Analyst, Android Developer, Portfolio, Machine Learning ,Full Stack Developer, Python, Kotlin, TensorFlow, Power BI, AWS Cloud">
-    <meta name="author" content="Abdul Javid">
-    <title>Abdul Javid | AI Engineer & Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+```
+<meta name="description" content="Abdul Javid J - GenAI Engineer | Full-Stack Developer | AI/ML Engineer | Backend Software Engineer | Data Analyst">
+
+<meta name="keywords" content="GenAI Engineer, Full Stack Developer, AI ML Engineer, Backend Software Engineer, Data Analyst, Python, Java, Spring Boot, React, SQL, TensorFlow, Gemini AI, AWS, MongoDB, MySQL">
+
+<meta name="author" content="Abdul Javid">
+
+<title>Abdul Javid | GenAI Engineer & Software Developer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+```
+
 </head>
+
 <body>
-    <canvas id="particles"></canvas>
-    <div class="loader">
-        <div class="loader-content">
-            <div class="loader-ring"></div>
-            <span>AJ</span>
+
+```
+<!-- PARTICLES -->
+<canvas id="particles"></canvas>
+
+<!-- LOADER -->
+<div class="loader">
+    <div class="loader-content">
+        <div class="loader-ring"></div>
+        <span>AJ</span>
+    </div>
+</div>
+
+<!-- SCROLL PROGRESS -->
+<div class="scroll-progress">
+    <div class="scroll-progress-bar"></div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            AJ<span class="logo-dot">.</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
+
+        <button class="theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+        </button>
+
+    </div>
+</nav>
+
+
+<!-- ==================== HERO ==================== -->
+
+<section id="home" class="hero">
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <span class="hero-greeting">
+                Hello, I'm
+            </span>
+
+            <h1 class="hero-name">
+                Abdul Javid
+            </h1>
+
+            <h2 class="hero-title">
+                <span class="typing-text"></span>
+                <span class="cursor">|</span>
+            </h2>
+
+            <p class="hero-tagline">
+                Building AI-powered applications, intelligent backend systems,
+                full-stack platforms, and data-driven solutions using modern technologies.
+            </p>
+
+            <div class="hero-cta">
+
+                <a href="#projects" class="btn btn-primary">
+                    <span>View Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Contact Me</span>
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+            <div class="hero-social">
+
+                <a href="https://www.linkedin.com/in/abdul-javid-a59048373"
+                   target="_blank"
+                   class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://github.com/jahabarjavith111-oss"
+                   target="_blank"
+                   class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="mailto:jahabarjavith111@gmail.com"
+                   class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="image-frame">
+                <img src="photo.jpeg"
+                     alt="Abdul Javid - GenAI Engineer">
+            </div>
+
+            <div class="image-glow"></div>
+
+        </div>
+
     </div>
 
-    <div class="scroll-progress">
-        <div class="scroll-progress-bar"></div>
+
+    <div class="hero-scroll">
+
+        <span>Scroll to explore</span>
+
+        <div class="scroll-indicator">
+            <div class="scroll-dot"></div>
+        </div>
+
     </div>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#home" class="logo">AJ<span class="logo-dot">.</span></a>
-            <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <button class="theme-toggle" aria-label="Toggle theme">
-                <i class="fas fa-moon"></i>
-            </button>
-        </div>
-    </nav>
+</section>
 
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <span class="hero-greeting">Hello, I'm</span>
-                <h1 class="hero-name">Abdul Javid</h1>
-                <h2 class="hero-title"><span class="typing-text"></span><span class="cursor">|</span></h2>
-                <p class="hero-tagline">Building AI-powered mobile applications, real-time emergency systems, and enterprise-level data analytics platforms.</p>
-                <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">
-                        <span>View Projects</span>
-                         <i class="fas fa-arrow-right"></i>
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <span>Contact Me</span>
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-                <div class="hero-social">
-                    <a href="https://www.linkedin.com/in/abdul-javid-a59048373" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/jahabarjavith111-oss" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
-                    <a href="mailto:jahabarjavith111@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="image-frame">
-                    <img src="photo.jpeg" alt="Abdul Javid - AI Developer">
-                </div>
-                <div class="image-glow"></div>
-            </div>
-        </div>
-        <div class="hero-scroll">
-            <span>Scroll to explore</span>
-            <div class="scroll-indicator">
-                <div class="scroll-dot"></div>
-            </div>
-        </div>
-    </section>
 
-    <section id="about" class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">About Me</span>
-                <h2 class="section-title">Computer Science Engineering Undergraduate</h2>
-            </div>
-            <div class="about-content">
-                <div class="about-card glass-card">
-                    <p>Passionate Computer Science Engineering student from <strong>J.J College of Engineering and Technology</strong> with hands-on experience in AI-driven mobile applications, business intelligence platforms, and real-time safety systems.</p>
-                    <p>Skilled in <strong>Python, Kotlin, TensorFlow, Firebase, and AWS Cloud</strong> with expertise in building scalable applications using modern development practices including MVVM Architecture, REST API design, and Agile methodology.</p>
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="3">0</span>
-                            <span class="stat-label">Major Projects</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="6">0</span>
-                            <span class="stat-label">Internships/Certifications</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="20">0</span>
-                            <span class="stat-label">Tech Skills</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="experience" class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Experience</span>
-                <h2 class="section-title">Industry Experience through Virtual Internships</h2>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item glass-card" data-aos="fade-up">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-company">Tata Group</span>
-                        <h3 class="timeline-title">GenAI Data Analyst Simulation</h3>
-                        <ul class="timeline-details">
-                            <li>Enterprise data preprocessing and analysis</li>
-                            <li>Business analytics dashboard creation</li>
-                            <li>AI-assisted data-driven decision workflow</li>
-                        </ul>
-                        <div class="timeline-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Power BI</span>
-                            <span class="tech-tag">AI Analytics</span>
-                        </div>
+<!-- ==================== ABOUT ==================== -->
+
+<section id="about" class="section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                About Me
+            </span>
+
+            <h2 class="section-title">
+                Computer Science Engineering Undergraduate
+            </h2>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <div class="about-card glass-card">
+
+                <p>
+                    Passionate Computer Science Engineering student from
+                    <strong>J.J College of Engineering and Technology</strong>
+                    with hands-on experience in AI-driven applications,
+                    full-stack development, backend systems, business
+                    intelligence, cybersecurity, and real-time safety platforms.
+                </p>
+
+                <p>
+                    Skilled in
+                    <strong>
+                        Python, Java, Kotlin, React, Spring Boot, SQL,
+                        TensorFlow, Gemini AI, Firebase, AWS Cloud,
+                        and modern backend technologies
+                    </strong>
+                    with experience in REST API development, database
+                    design, AI integration, analytics, and scalable
+                    application architecture.
+                </p>
+
+
+                <div class="about-stats">
+
+                    <div class="stat-item">
+
+                        <span class="stat-number"
+                              data-target="7">
+                            0
+                        </span>
+
+                        <span class="stat-label">
+                            Major Projects
+                        </span>
+
                     </div>
-                </div>
-                <div class="timeline-item glass-card" data-aos="fade-up">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-company">Tata Group</span>
-                        <h3 class="timeline-title">Cybersecurity Analyst Simulation</h3>
-                        <ul class="timeline-details">
-                            <li>Network vulnerability assessment</li>
-                            <li>Incident response strategy design</li>
-                            <li>Enterprise security workflow planning</li>
-                        </ul>
-                        <div class="timeline-tech">
-                            <span class="tech-tag">Cybersecurity</span>
-                            <span class="tech-tag">Network Security</span>
-                        </div>
+
+
+                    <div class="stat-item">
+
+                        <span class="stat-number"
+                              data-target="6">
+                            0
+                        </span>
+
+                        <span class="stat-label">
+                            Internships/Certifications
+                        </span>
+
                     </div>
-                </div>
-                <div class="timeline-item glass-card" data-aos="fade-up">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-company">Walmart</span>
-                        <h3 class="timeline-title">Software Engineering Simulation</h3>
-                        <ul class="timeline-details">
-                            <li>Backend architecture problem solving</li>
-                            <li>Scalable system design simulation</li>
-                            <li>Data structure optimization techniques</li>
-                        </ul>
-                        <div class="timeline-tech">
-                            <span class="tech-tag">System Design</span>
-                            <span class="tech-tag">Backend</span>
-                        </div>
+
+
+                    <div class="stat-item">
+
+                        <span class="stat-number"
+                              data-target="20">
+                            0
+                        </span>
+
+                        <span class="stat-label">
+                            Tech Skills
+                        </span>
+
                     </div>
+
                 </div>
-                <div class="timeline-item glass-card" data-aos="fade-up">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-company">Cisco</span>
-                        <h3 class="timeline-title">Junior Cybersecurity Analyst Certification</h3>
-                        <ul class="timeline-details">
-                            <li>Enterprise threat identification</li>
-                            <li>Risk mitigation workflow planning</li>
-                            <li>Security best practices implementation</li>
-                        </ul>
-                        <div class="timeline-tech">
-                            <span class="tech-tag">Threat Analysis</span>
-                            <span class="tech-tag">Risk Mitigation</span>
-                        </div>
-                    </div>
-                </div>
+
             </div>
 
-            <div class="section-subheader">
-                <h3 class="sub-title">Professional Internships</h3>
-            </div>
-<div class="internships-grid">
-                <div class="internship-card glass-card">
-                    <div class="internship-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h4>Full Stack Developer Intern (Onsite)</h4>
-                    <span class="internship-company">VDart Technologies Private Limited</span>
-                    <span class="internship-dates">March 2026 - May 2026</span>
-                    <ul>
-                        <li>Developed and deployed a full-stack web application using PHP, MySQL, and React.js</li>
-                        <li>Designed scalable architecture, RESTful APIs, and optimized database schema for efficient data handling</li>
-                        <li>Built responsive UI and CRUD features, improving performance, reliability, and frontend-backend integration</li>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================== EXPERIENCE ==================== -->
+
+<section id="experience" class="section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Experience
+            </span>
+
+            <h2 class="section-title">
+                Industry Experience through Virtual Internships
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+            <!-- TATA GENAI -->
+
+            <div class="timeline-item glass-card"
+                 data-aos="fade-up">
+
+                <div class="timeline-marker"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-company">
+                        Tata Group
+                    </span>
+
+                    <h3 class="timeline-title">
+                        GenAI Data Analyst Simulation
+                    </h3>
+
+                    <ul class="timeline-details">
+
+                        <li>
+                            Enterprise data preprocessing and analysis
+                        </li>
+
+                        <li>
+                            Business analytics dashboard creation
+                        </li>
+
+                        <li>
+                            AI-assisted data-driven decision workflow
+                        </li>
+
                     </ul>
-                    <span class="internship-type">Contract based</span>
-                </div>
-                <div class="internship-card glass-card">
-                    <div class="internship-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h4>Business Analyst Intern</h4>
-                    <span class="internship-company">Cognifyz Technologies Pvt Ltd</span>
-                    <ul>
-                        <li>KPI dashboard development</li>
-                        <li>Business performance reporting</li>
-                    </ul>
-                </div>
-                <div class="internship-card glass-card">
-                    <div class="internship-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h4>Data Science Intern</h4>
-                    <span class="internship-company">Cognifyz Technologies Pvt Ltd</span>
-                    <ul>
-                        <li>Data cleaning with Python & SQL</li>
-                        <li>ML-ready data pipelines</li>
-                    </ul>
-                </div>
-                <div class="internship-card glass-card">
-                    <div class="internship-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h4>GenAI Data Analyst Intern</h4>
-                    <span class="internship-company">Codveda Technologies Pvt Ltd</span>
-                    <ul>
-                        <li>Power BI visualizations</li>
-                        <li>Dataset analysis</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="projects" class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Projects</span>
-                <h2 class="section-title">Featured Projects</h2>
-            </div>
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all"><span>All</span></button>
-                <button class="filter-btn" data-filter="android"><span>Android</span></button>
-                <button class="filter-btn" data-filter="ai"><span>AI/ML</span></button>
-                <button class="filter-btn" data-filter="bi"><span>BI/Dashboard</span></button>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card glass-card" data-category="android ai">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <a href="https://github.com/jahabarjavith111-oss" target="_blank" class="github-link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                    <h3 class="project-title">ZELDA</h3>
-                    <p class="project-subtitle">AI-Powered Women Safety Android App</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Kotlin</span>
-                        <span class="tech-tag">Firebase</span>
-                        <span class="tech-tag">TensorFlow</span>
-                        <span class="tech-tag">Google Maps API</span>
-                    </div>
-                    <div class="project-features">
-                        <h4>Key Features</h4>
-                        <ul>
-                            <li>Voice-triggered SOS emergency system</li>
-                            <li>Real-time GPS tracking</li>
-                            <li>AES encrypted audio/video evidence</li>
-                            <li>MVVM Architecture</li>
-                        </ul>
-                    </div>
-                    <div class="project-metrics">
-                        <div class="metric">
-                            <span class="metric-value">&lt;2s</span>
-                            <span class="metric-label">Alert Latency</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">256-bit</span>
-                            <span class="metric-label">AES Encryption</span>
-                        </div>
-                    </div>
-                    <div class="engineering-approach">
-                        <h4>Engineering Approach</h4>
-                        <p>Implemented MVVM architecture with Repository pattern for clean separation. Used Firebase Auth for secure authentication, Firestore for real-time database, and Storage for evidence files. Google Maps API integrated for location tracking with background services for continuous monitoring.</p>
-                    </div>
-                </div>
+                    <div class="timeline-tech">
 
-                <div class="project-card glass-card" data-category="bi">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fas fa-chart-pie"></i>
-                        </div>
-                        <a href="https://github.com/jahabarjavith111-oss" target="_blank" class="github-link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                    <h3 class="project-title">InsightFlow</h3>
-                    <p class="project-subtitle">Business Intelligence Platform</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">MongoDB</span>
-                        <span class="tech-tag">JWT</span>
-                        <span class="tech-tag">Power BI</span>
-                    </div>
-                    <div class="project-features">
-                        <h4>Key Features</h4>
-                        <ul>
-                            <li>Real-time KPI monitoring dashboard</li>
-                            <li>Revenue analytics system</li>
-                            <li>JWT-secured REST APIs</li>
-                            <li>Automated trend forecasting</li>
-                        </ul>
-                    </div>
-                    <div class="project-metrics">
-                        <div class="metric">
-                            <span class="metric-value">40%</span>
-                            <span class="metric-label">Faster Decisions</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">99.9%</span>
-                            <span class="metric-label">Uptime</span>
-                        </div>
-                    </div>
-                    <div class="engineering-approach">
-                        <h4>Engineering Approach</h4>
-                        <p>Built RESTful APIs with Node.js and Express. JWT authentication with refresh tokens for secure access. MongoDB for flexible data storage with efficient indexing. Real-time data streaming for live dashboard updates.</p>
-                    </div>
-                </div>
-
-                <div class="project-card glass-card" data-category="ai">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <a href="https://github.com/jahabarjavith111-oss" target="_blank" class="github-link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                    <h3 class="project-title">Mental Health Forecaster</h3>
-                    <p class="project-subtitle">AI-Based Emotional & Mental Health Forecasting</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">TensorFlow</span>
                         <span class="tech-tag">Python</span>
-                        <span class="tech-tag">MongoDB</span>
-                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Power BI</span>
+                        <span class="tech-tag">AI Analytics</span>
+
                     </div>
-                    <div class="project-features">
-                        <h4>Key Features</h4>
-                        <ul>
-                            <li>Behavioral pattern analysis</li>
-                            <li>Recommendation engine using TensorFlow</li>
-                            <li>MongoDB & AWS cloud deployment</li>
-                            <li>Predictive analytics</li>
-                        </ul>
-                    </div>
-                    <div class="project-metrics">
-                        <div class="metric">
-                            <span class="metric-value">85%</span>
-                            <span class="metric-label">Prediction Accuracy</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value">AWS</span>
-                            <span class="metric-label">Cloud Deployed</span>
-                        </div>
-                    </div>
-                    <div class="engineering-approach">
-                        <h4>Engineering Approach</h4>
-                        <p>TensorFlow-based recommendation engine with LSTM for temporal pattern recognition. AWS EC2 for deployment with S3 for data storage. Data preprocessing pipeline optimized for efficient model training.</p>
-                    </div>
+
                 </div>
+
             </div>
-        </div>
-    </section>
 
-    <section id="skills" class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Skills</span>
-                <h2 class="section-title">Technical Expertise</h2>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-category glass-card">
-                    <h3 class="category-title"><i class="fas fa-code"></i> Programming</h3>
-                    <div class="skill-bars">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Python</span>
-                                <span class="skill-percentage">95%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Kotlin</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Java</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>C/C++</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>SQL</span>
-                                <span class="skill-percentage">88%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="skill-category glass-card">
-                    <h3 class="category-title"><i class="fas fa-brain"></i> AI & Machine Learning</h3>
-                    <div class="skill-bars">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>TensorFlow</span>
-                                <span class="skill-percentage">92%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="92"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Scikit-learn</span>
-                                <span class="skill-percentage">88%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>LangChain</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="skill-category glass-card">
-                    <h3 class="category-title"><i class="fas fa-mobile-alt"></i> Web & Mobile</h3>
-                    <div class="skill-bars">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Flutter</span>
-                                <span class="skill-percentage">82%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="82"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>React Native</span>
-                                <span class="skill-percentage">78%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="78"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Android Studio</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>HTML/CSS</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
-                        </div>
-                    </div>
-                </div>
+            <!-- TATA CYBER -->
 
-                <div class="skill-category glass-card">
-                    <h3 class="category-title"><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
-                    <div class="skill-bars">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>AWS</span>
-                                <span class="skill-percentage">88%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Firebase</span>
-                                <span class="skill-percentage">92%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="92"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Docker</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="timeline-item glass-card"
+                 data-aos="fade-up">
 
-                <div class="skill-category glass-card">
-                    <h3 class="category-title"><i class="fas fa-database"></i> Data & Analytics</h3>
-                    <div class="skill-bars">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Power BI</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Tableau</span>
-                                <span class="skill-percentage">82%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="82"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>MongoDB</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>MySQL</span>
-                                <span class="skill-percentage">88%</span>
-                            </div>
-                            <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
-                        </div>
-                    </div>
-                </div>
+                <div class="timeline-marker"></div>
 
-                <div class="skill-category glass-card">
-                    <h3 class="category-title"><i class="fas fa-tools"></i> Tools</h3>
-                    <div class="skill-tags">
-                        <span class="tag-item">GitHub</span>
-                        <span class="tag-item">VS Code</span>
-                        <span class="tag-item">AWS IoT</span>
-                        <span class="tag-item">AWS DevOps</span>
-                        <span class="tag-item">REST APIs</span>
-                        <span class="tag-item">Agile</span>
-                        <span class="tag-item">MVVM</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                <div class="timeline-content">
 
-    <section id="learning" class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Self-Directed Learning</span>
-                <h2 class="section-title">Continuous Skill Development</h2>
-            </div>
-            <div class="learning-grid">
-                <div class="learning-card glass-card">
-                    <div class="learning-icon">
-                        <i class="fab fa-android"></i>
-                    </div>
-                    <h3>Android App Development</h3>
-                    <p>Self-taught Android development using Android Studio and Kotlin</p>
-                    <ul class="learning-topics">
-                        <li><i class="fas fa-check"></i> Firebase Integration</li>
-                        <li><i class="fas fa-check"></i> Google Maps API</li>
-                        <li><i class="fas fa-check"></i> Background Services</li>
-                        <li><i class="fas fa-check"></i> MVVM Architecture</li>
+                    <span class="timeline-company">
+                        Tata Group
+                    </span>
+
+                    <h3 class="timeline-title">
+                        Cybersecurity Analyst Simulation
+                    </h3>
+
+                    <ul class="timeline-details">
+
+                        <li>
+                            Network vulnerability assessment
+                        </li>
+
+                        <li>
+                            Incident response strategy design
+                        </li>
+
+                        <li>
+                            Enterprise security workflow planning
+                        </li>
+
                     </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="contributions" class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">What I Bring</span>
-                <h2 class="section-title">What I Can Contribute as a Software Engineer</h2>
+                    <div class="timeline-tech">
+
+                        <span class="tech-tag">
+                            Cybersecurity
+                        </span>
+
+                        <span class="tech-tag">
+                            Network Security
+                        </span>
+
+                    </div>
+
+                </div>
+
             </div>
-            <div class="contributions-grid">
-                <div class="contribution-card glass-card">
-                    <div class="contribution-icon">
-                        <i class="fas fa-bolt"></i>
+
+
+
+            <!-- WALMART -->
+
+            <div class="timeline-item glass-card"
+                 data-aos="fade-up">
+
+                <div class="timeline-marker"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-company">
+                        Walmart
+                    </span>
+
+                    <h3 class="timeline-title">
+                        Software Engineering Simulation
+                    </h3>
+
+                    <ul class="timeline-details">
+
+                        <li>
+                            Backend architecture problem solving
+                        </li>
+
+                        <li>
+                            Scalable system design simulation
+                        </li>
+
+                        <li>
+                            Data structure optimization techniques
+                        </li>
+
+                    </ul>
+
+                    <div class="timeline-tech">
+
+                        <span class="tech-tag">
+                            System Design
+                        </span>
+
+                        <span class="tech-tag">
+                            Backend
+                        </span>
+
                     </div>
-                    <h3>Real-time Data Systems</h3>
-                    <p>Experience building real-time emergency systems with sub-2-second response latency</p>
+
                 </div>
-                <div class="contribution-card glass-card">
-                    <div class="contribution-icon">
-                        <i class="fas fa-mobile"></i>
+
+            </div>
+
+
+
+            <!-- CISCO -->
+
+            <div class="timeline-item glass-card"
+                 data-aos="fade-up">
+
+                <div class="timeline-marker"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-company">
+                        Cisco
+                    </span>
+
+                    <h3 class="timeline-title">
+                        Junior Cybersecurity Analyst Certification
+                    </h3>
+
+                    <ul class="timeline-details">
+
+                        <li>
+                            Enterprise threat identification
+                        </li>
+
+                        <li>
+                            Risk mitigation workflow planning
+                        </li>
+
+                        <li>
+                            Security best practices implementation
+                        </li>
+
+                    </ul>
+
+                    <div class="timeline-tech">
+
+                        <span class="tech-tag">
+                            Threat Analysis
+                        </span>
+
+                        <span class="tech-tag">
+                            Risk Mitigation
+                        </span>
+
                     </div>
-                    <h3>AI-Driven Mobile Apps</h3>
-                    <p>End-to-end mobile development with AI integration, voice recognition, and encrypted storage</p>
+
                 </div>
-                <div class="contribution-card glass-card">
-                    <div class="contribution-icon">
-                        <i class="fas fa-plug"></i>
-                    </div>
-                    <h3>REST API Integration</h3>
-                    <p>Secure API design with JWT authentication, scalable backend architecture</p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- PROFESSIONAL INTERNSHIPS -->
+
+        <div class="section-subheader">
+
+            <h3 class="sub-title">
+                Professional Internships
+            </h3>
+
+        </div>
+
+
+        <div class="internships-grid">
+
+
+            <div class="internship-card glass-card">
+
+                <div class="internship-icon">
+                    <i class="fas fa-code"></i>
                 </div>
-                <div class="contribution-card glass-card">
-                    <div class="contribution-icon">
-                        <i class="fas fa-cloud-upload-alt"></i>
-                    </div>
-                    <h3>Cloud Deployment</h3>
-                    <p>AWS and Firebase cloud infrastructure with DevOps best practices</p>
+
+                <h4>
+                    Full Stack Developer Intern (Onsite)
+                </h4>
+
+                <span class="internship-company">
+                    VDart Technologies Private Limited
+                </span>
+
+                <span class="internship-dates">
+                    March 2026 - May 2026
+                </span>
+
+                <ul>
+
+                    <li>
+                        Developed and deployed a full-stack web application
+                        using PHP, MySQL, and React.js
+                    </li>
+
+                    <li>
+                        Designed RESTful APIs and optimized database schema
+                        for efficient data handling
+                    </li>
+
+                    <li>
+                        Built responsive UI and CRUD features with
+                        frontend-backend integration
+                    </li>
+
+                </ul>
+
+                <span class="internship-type">
+                    Contract based
+                </span>
+
+            </div>
+
+
+
+            <div class="internship-card glass-card">
+
+                <div class="internship-icon">
+                    <i class="fas fa-chart-line"></i>
                 </div>
-                <div class="contribution-card glass-card">
-                    <div class="contribution-icon">
+
+                <h4>
+                    Business Analyst Intern
+                </h4>
+
+                <span class="internship-company">
+                    Cognifyz Technologies Pvt Ltd
+                </span>
+
+                <ul>
+
+                    <li>
+                        KPI dashboard development
+                    </li>
+
+                    <li>
+                        Business performance reporting
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <div class="internship-card glass-card">
+
+                <div class="internship-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+
+                <h4>
+                    Data Science Intern
+                </h4>
+
+                <span class="internship-company">
+                    Cognifyz Technologies Pvt Ltd
+                </span>
+
+                <ul>
+
+                    <li>
+                        Data cleaning with Python & SQL
+                    </li>
+
+                    <li>
+                        ML-ready data pipelines
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <div class="internship-card glass-card">
+
+                <div class="internship-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+
+                <h4>
+                    GenAI Data Analyst Intern
+                </h4>
+
+                <span class="internship-company">
+                    Codveda Technologies Pvt Ltd
+                </span>
+
+                <ul>
+
+                    <li>
+                        Power BI visualizations
+                    </li>
+
+                    <li>
+                        Dataset analysis
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================== PROJECTS ==================== -->
+
+<section id="projects" class="section">
+
+    <div class="container">
+
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Projects
+            </span>
+
+            <h2 class="section-title">
+                Featured Projects
+            </h2>
+
+        </div>
+
+
+
+        <!-- PROJECT FILTERS -->
+
+        <div class="project-filters">
+
+            <button class="filter-btn active"
+                    data-filter="all">
+                <span>All</span>
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="android">
+                <span>Android</span>
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="ai">
+                <span>AI/ML</span>
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="bi">
+                <span>BI/Dashboard</span>
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="fintech">
+                <span>FinTech</span>
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="blockchain">
+                <span>Blockchain</span>
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="devsecops">
+                <span>DevSecOps</span>
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="enterprise">
+                <span>Enterprise</span>
+            </button>
+
+        </div>
+
+
+
+        <div class="projects-grid">
+
+
+            <!-- ==================== PROJECT 1 ==================== -->
+
+            <div class="project-card glass-card"
+                 data-category="android ai">
+
+                <div class="project-header">
+
+                    <div class="project-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>Secure Data Handling</h3>
-                    <p>AES encryption implementation, secure authentication, data privacy compliance</p>
-                </div>
-                <div class="contribution-card glass-card">
-                    <div class="contribution-icon">
-                        <i class="fas fa-code-branch"></i>
-                    </div>
-                    <h3>Code Quality Practices</h3>
-                    <p>Git version control, modular architecture, Agile methodology, clean code principles</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="contact" class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Contact</span>
-                <h2 class="section-title">Let's Connect</h2>
-            </div>
-            <div class="contact-wrapper">
-                <div class="contact-info glass-card">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
-                        <div class="contact-details">
-                            <span class="contact-label">Phone</span>
-                            <a href="tel:+919345992521">+91 9345992521</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <span class="contact-label">Email</span>
-                            <a href="mailto:jahabarjavith111@gmail.com">jahabarjavith111@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
-                        <div class="contact-details">
-                            <span class="contact-label">LinkedIn</span>
-                            <a href="https://www.linkedin.com/in/abdul-javid-a59048373-a59048373" target="_blank">abdul-javid</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <div class="contact-details">
-                            <span class="contact-label">GitHub</span>
-                            <a href="https://github.com/jahabarjavith111-oss" target="_blank">jahabarjavith111-oss</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-cta glass-card">
-                    <h3>Ready to work together?</h3>
-                    <p>Let's build something amazing. Feel free to reach out for collaborations, projects, or just to say hello!</p>
-                    <a href="mailto:jahabarjavith111@gmail.com" class="btn btn-primary">
-                        <span>Get In Touch</span>
-                        <i class="fas fa-paper-plane"></i>
+                    <a href="https://github.com/jahabarjavith111-oss"
+                       target="_blank"
+                       class="github-link">
+
+                        <i class="fab fa-github"></i>
+
                     </a>
+
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-logo">
-                <span>AJ<span class="logo-dot">.</span></span>
-            </div>
-            <p class="footer-text">© 2026 Abdul Javid. All rights reserved.</p>
-            <div class="footer-social">
-                <a href="https://www.linkedin.com/in/abdul-javid-a59048373" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/jahabarjavith111-oss" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:jahabarjavith111@gmail.com"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
-    </footer>
 
-    <script src="main.js"></script>
+                <h3 class="project-title">
+                    ZELDA
+                </h3>
+
+                <p class="project-subtitle">
+                    AI-Powered Women Safety Android App
+                </p>
+
+
+                <div class="project-tech">
+
+                    <span class="tech-tag">Kotlin</span>
+                    <span class="tech-tag">Firebase</span>
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">Google Maps API</span>
+
+                </div>
+
+
+                <div class="project-features">
+
+                    <h4>
+                        Key Features
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            Voice-triggered SOS emergency system
+                        </li>
+
+                        <li>
+                            Real-time GPS tracking
+                        </li>
+
+                        <li>
+                            AES encrypted audio/video evidence
+                        </li>
+
+                        <li>
+                            MVVM Architecture
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="project-metrics">
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            &lt;2s
+                        </span>
+
+                        <span class="metric-label">
+                            Alert Latency
+                        </span>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            256-bit
+                        </span>
+
+                        <span class="metric-label">
+                            AES Encryption
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="engineering-approach">
+
+                    <h4>
+                        Engineering Approach
+                    </h4>
+
+                    <p>
+                        Implemented MVVM architecture with Repository pattern
+                        for clean separation. Used Firebase Auth for secure
+                        authentication, Firestore for real-time database,
+                        and Storage for evidence files. Google Maps API
+                        integrated for location tracking with background
+                        services for continuous monitoring.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================== PROJECT 2 ==================== -->
+
+            <div class="project-card glass-card"
+                 data-category="bi">
+
+                <div class="project-header">
+
+                    <div class="project-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+
+                    <a href="https://github.com/jahabarjavith111-oss"
+                       target="_blank"
+                       class="github-link">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                </div>
+
+
+                <h3 class="project-title">
+                    InsightFlow
+                </h3>
+
+                <p class="project-subtitle">
+                    Business Intelligence Platform
+                </p>
+
+
+                <div class="project-tech">
+
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">JWT</span>
+                    <span class="tech-tag">Power BI</span>
+
+                </div>
+
+
+                <div class="project-features">
+
+                    <h4>
+                        Key Features
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            Real-time KPI monitoring dashboard
+                        </li>
+
+                        <li>
+                            Revenue analytics system
+                        </li>
+
+                        <li>
+                            JWT-secured REST APIs
+                        </li>
+
+                        <li>
+                            Automated trend forecasting
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="project-metrics">
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            BI
+                        </span>
+
+                        <span class="metric-label">
+                            Analytics Platform
+                        </span>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            API
+                        </span>
+
+                        <span class="metric-label">
+                            Secure Backend
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="engineering-approach">
+
+                    <h4>
+                        Engineering Approach
+                    </h4>
+
+                    <p>
+                        Built RESTful APIs with Node.js and Express.
+                        JWT authentication provides secure access.
+                        MongoDB supports flexible data storage with
+                        efficient indexing and real-time dashboard
+                        data processing.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================== PROJECT 3 ==================== -->
+
+            <div class="project-card glass-card"
+                 data-category="ai">
+
+                <div class="project-header">
+
+                    <div class="project-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+
+                    <a href="https://github.com/jahabarjavith111-oss"
+                       target="_blank"
+                       class="github-link">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                </div>
+
+
+                <h3 class="project-title">
+                    Mental Health Forecaster
+                </h3>
+
+                <p class="project-subtitle">
+                    AI-Based Emotional & Mental Health Forecasting
+                </p>
+
+
+                <div class="project-tech">
+
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">AWS</span>
+
+                </div>
+
+
+                <div class="project-features">
+
+                    <h4>
+                        Key Features
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            Behavioral pattern analysis
+                        </li>
+
+                        <li>
+                            Recommendation engine using TensorFlow
+                        </li>
+
+                        <li>
+                            MongoDB & AWS cloud deployment
+                        </li>
+
+                        <li>
+                            Predictive analytics
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="project-metrics">
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            AI
+                        </span>
+
+                        <span class="metric-label">
+                            Predictive Analytics
+                        </span>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            AWS
+                        </span>
+
+                        <span class="metric-label">
+                            Cloud Platform
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="engineering-approach">
+
+                    <h4>
+                        Engineering Approach
+                    </h4>
+
+                    <p>
+                        TensorFlow-based recommendation engine with
+                        temporal pattern recognition. AWS infrastructure
+                        supports deployment and cloud data storage,
+                        with a preprocessing pipeline optimized for
+                        model training.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================== PROJECT 4 - TXNORYX ==================== -->
+
+            <div class="project-card glass-card"
+                 data-category="ai fintech enterprise">
+
+                <div class="project-header">
+
+                    <div class="project-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+
+                    <a href="https://github.com/jahabarjavith111-oss"
+                       target="_blank"
+                       class="github-link">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                </div>
+
+
+                <h3 class="project-title">
+                    TXNORYX
+                </h3>
+
+                <p class="project-subtitle">
+                    Autonomous Payment Risk & Recovery Intelligence
+                </p>
+
+
+                <div class="project-tech">
+
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">Gemini AI</span>
+                    <span class="tech-tag">REST API</span>
+
+                </div>
+
+
+                <div class="project-features">
+
+                    <h4>
+                        Key Features
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            AI-powered payment risk analysis
+                        </li>
+
+                        <li>
+                            Failed payment recovery intelligence
+                        </li>
+
+                        <li>
+                            Dynamic transaction risk scoring
+                        </li>
+
+                        <li>
+                            Autonomous recovery workflow
+                        </li>
+
+                        <li>
+                            Safety Governor for controlled AI actions
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="project-metrics">
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            AI
+                        </span>
+
+                        <span class="metric-label">
+                            Risk Intelligence
+                        </span>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            24/7
+                        </span>
+
+                        <span class="metric-label">
+                            Monitoring
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="engineering-approach">
+
+                    <h4>
+                        Engineering Approach
+                    </h4>
+
+                    <p>
+                        Designed as an AI-driven payment intelligence
+                        platform that analyzes transaction behavior,
+                        evaluates fraud and risk signals, recommends
+                        recovery actions, and passes autonomous decisions
+                        through a Safety Governor before controlled
+                        execution and audit logging.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================== PROJECT 5 - VERIDEX ==================== -->
+
+            <div class="project-card glass-card"
+                 data-category="blockchain ai enterprise">
+
+                <div class="project-header">
+
+                    <div class="project-icon">
+                        <i class="fas fa-fingerprint"></i>
+                    </div>
+
+                    <a href="https://github.com/jahabarjavith111-oss"
+                       target="_blank"
+                       class="github-link">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                </div>
+
+
+                <h3 class="project-title">
+                    VERIDEX
+                </h3>
+
+                <p class="project-subtitle">
+                    Blockchain-Powered Digital Trust & Asset Governance Platform
+                </p>
+
+
+                <div class="project-tech">
+
+                    <span class="tech-tag">Blockchain</span>
+                    <span class="tech-tag">DID</span>
+                    <span class="tech-tag">Smart Contracts</span>
+                    <span class="tech-tag">RBAC</span>
+                    <span class="tech-tag">Cybersecurity</span>
+
+                </div>
+
+
+                <div class="project-features">
+
+                    <h4>
+                        Key Features
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            Decentralized Identity verification
+                        </li>
+
+                        <li>
+                            Role-based access control
+                        </li>
+
+                        <li>
+                            Digital asset ownership verification
+                        </li>
+
+                        <li>
+                            Dynamic trust & risk evaluation
+                        </li>
+
+                        <li>
+                            Immutable blockchain audit trail
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="project-metrics">
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            DID
+                        </span>
+
+                        <span class="metric-label">
+                            Identity Layer
+                        </span>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            RBAC
+                        </span>
+
+                        <span class="metric-label">
+                            Access Control
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="engineering-approach">
+
+                    <h4>
+                        Engineering Approach
+                    </h4>
+
+                    <p>
+                        VERIDEX combines decentralized identity,
+                        role-based authorization, asset verification,
+                        dynamic trust evaluation, and smart contracts.
+                        Access decisions are recorded through an
+                        immutable blockchain audit trail for transparent
+                        enterprise governance.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================== PROJECT 6 - AEGISDESK ==================== -->
+
+            <div class="project-card glass-card"
+                 data-category="ai enterprise">
+
+                <div class="project-header">
+
+                    <div class="project-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+
+                    <a href="https://github.com/jahabarjavith111-oss"
+                       target="_blank"
+                       class="github-link">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                </div>
+
+
+                <h3 class="project-title">
+                    AegisDesk
+                </h3>
+
+                <p class="project-subtitle">
+                    AI-Powered Enterprise IT Service Management Platform
+                </p>
+
+
+                <div class="project-tech">
+
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">Gemini AI</span>
+                    <span class="tech-tag">REST API</span>
+
+                </div>
+
+
+                <div class="project-features">
+
+                    <h4>
+                        Key Features
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            AI-powered incident detection
+                        </li>
+
+                        <li>
+                            Automated issue diagnosis
+                        </li>
+
+                        <li>
+                            Intelligent remediation workflows
+                        </li>
+
+                        <li>
+                            IT service monitoring dashboard
+                        </li>
+
+                        <li>
+                            Incident history & audit tracking
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="project-metrics">
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            AI
+                        </span>
+
+                        <span class="metric-label">
+                            Auto Diagnosis
+                        </span>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            24/7
+                        </span>
+
+                        <span class="metric-label">
+                            Service Monitoring
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="engineering-approach">
+
+                    <h4>
+                        Engineering Approach
+                    </h4>
+
+                    <p>
+                        AegisDesk is designed around an autonomous IT
+                        operations workflow where AI analyzes incidents,
+                        identifies probable root causes, recommends
+                        remediation actions, and automates approved fixes
+                        while maintaining service history and auditability.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================== PROJECT 7 - ZYQORVEX ==================== -->
+
+            <div class="project-card glass-card"
+                 data-category="ai devsecops enterprise">
+
+                <div class="project-header">
+
+                    <div class="project-icon">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+
+                    <a href="https://github.com/jahabarjavith111-oss/ZYQORVEX-AI"
+                       target="_blank"
+                       class="github-link">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                </div>
+
+
+                <h3 class="project-title">
+                    ZYQORVEX-AI
+                </h3>
+
+                <p class="project-subtitle">
+                    Autonomous DevSecOps & FinOps Guardrails
+                </p>
+
+
+                <div class="project-tech">
+
+                    <span class="tech-tag">Gemini AI</span>
+                    <span class="tech-tag">DevSecOps</span>
+                    <span class="tech-tag">FinOps</span>
+                    <span class="tech-tag">Cloud</span>
+                    <span class="tech-tag">Automation</span>
+
+                </div>
+
+
+                <div class="project-features">
+
+                    <h4>
+                        Key Features
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            AI-powered DevSecOps analysis
+                        </li>
+
+                        <li>
+                            Cloud security guardrails
+                        </li>
+
+                        <li>
+                            Infrastructure risk detection
+                        </li>
+
+                        <li>
+                            Cloud cost optimization
+                        </li>
+
+                        <li>
+                            Autonomous policy recommendations
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="project-metrics">
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            AI
+                        </span>
+
+                        <span class="metric-label">
+                            Autonomous Guardrails
+                        </span>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span class="metric-value">
+                            Sec
+                        </span>
+
+                        <span class="metric-label">
+                            Security + FinOps
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="engineering-approach">
+
+                    <h4>
+                        Engineering Approach
+                    </h4>
+
+                    <p>
+                        ZYQORVEX-AI combines generative AI with DevSecOps
+                        and FinOps guardrails to continuously evaluate
+                        infrastructure, identify security and cost risks,
+                        and generate controlled recommendations for safer
+                        and more efficient cloud operations.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================== SKILLS ==================== -->
+
+<section id="skills" class="section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Skills
+            </span>
+
+            <h2 class="section-title">
+                Technical Expertise
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            <!-- PROGRAMMING -->
+
+            <div class="skill-category glass-card">
+
+                <h3 class="category-title">
+                    <i class="fas fa-code"></i>
+                    Programming
+                </h3>
+
+                <div class="skill-bars">
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="95"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>Kotlin</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="90"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>Java</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="85"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>C/C++</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="80"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>SQL</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="88"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- AI -->
+
+            <div class="skill-category glass-card">
+
+                <h3 class="category-title">
+                    <i class="fas fa-brain"></i>
+                    AI & Machine Learning
+                </h3>
+
+                <div class="skill-bars">
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>TensorFlow</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="92"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>Scikit-learn</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="88"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>LangChain</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="85"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- WEB MOBILE -->
+
+            <div class="skill-category glass-card">
+
+                <h3 class="category-title">
+                    <i class="fas fa-mobile-alt"></i>
+                    Web & Mobile
+                </h3>
+
+                <div class="skill-bars">
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="85"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>Flutter</span>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="82"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>React Native</span>
+                            <span class="skill-percentage">78%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="78"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>Android Studio</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="90"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="85"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CLOUD -->
+
+            <div class="skill-category glass-card">
+
+                <h3 class="category-title">
+                    <i class="fas fa-cloud"></i>
+                    Cloud & DevOps
+                </h3>
+
+                <div class="skill-bars">
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>AWS</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="88"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>Firebase</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="92"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>Docker</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="75"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- DATA -->
+
+            <div class="skill-category glass-card">
+
+                <h3 class="category-title">
+                    <i class="fas fa-database"></i>
+                    Data & Analytics
+                </h3>
+
+                <div class="skill-bars">
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>Power BI</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="90"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>Tableau</span>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="82"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>MongoDB</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="85"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>MySQL</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="88"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>PostgreSQL</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-progress"
+                                 data-width="80"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- TOOLS -->
+
+            <div class="skill-category glass-card">
+
+                <h3 class="category-title">
+                    <i class="fas fa-tools"></i>
+                    Tools
+                </h3>
+
+                <div class="skill-tags">
+
+                    <span class="tag-item">Git</span>
+                    <span class="tag-item">GitHub</span>
+                    <span class="tag-item">VS Code</span>
+                    <span class="tag-item">IntelliJ IDEA</span>
+                    <span class="tag-item">Android Studio</span>
+                    <span class="tag-item">REST APIs</span>
+                    <span class="tag-item">Spring Boot</span>
+                    <span class="tag-item">Docker</span>
+                    <span class="tag-item">Agile</span>
+                    <span class="tag-item">MVVM</span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================== LEARNING ==================== -->
+
+<section id="learning" class="section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Self-Directed Learning
+            </span>
+
+            <h2 class="section-title">
+                Continuous Skill Development
+            </h2>
+
+        </div>
+
+
+        <div class="learning-grid">
+
+
+            <div class="learning-card glass-card">
+
+                <div class="learning-icon">
+                    <i class="fab fa-android"></i>
+                </div>
+
+                <h3>
+                    Android App Development
+                </h3>
+
+                <p>
+                    Self-taught Android development using
+                    Android Studio and Kotlin
+                </p>
+
+                <ul class="learning-topics">
+
+                    <li>
+                        <i class="fas fa-check"></i>
+                        Firebase Integration
+                    </li>
+
+                    <li>
+                        <i class="fas fa-check"></i>
+                        Google Maps API
+                    </li>
+
+                    <li>
+                        <i class="fas fa-check"></i>
+                        Background Services
+                    </li>
+
+                    <li>
+                        <i class="fas fa-check"></i>
+                        MVVM Architecture
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================== CONTRIBUTIONS ==================== -->
+
+<section id="contributions" class="section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                What I Bring
+            </span>
+
+            <h2 class="section-title">
+                What I Can Contribute as a Software Engineer
+            </h2>
+
+        </div>
+
+
+        <div class="contributions-grid">
+
+
+            <div class="contribution-card glass-card">
+
+                <div class="contribution-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+
+                <h3>
+                    Real-time Data Systems
+                </h3>
+
+                <p>
+                    Experience building real-time systems,
+                    dashboards, monitoring workflows, and
+                    event-driven application features.
+                </p>
+
+            </div>
+
+
+
+            <div class="contribution-card glass-card">
+
+                <div class="contribution-icon">
+                    <i class="fas fa-mobile"></i>
+                </div>
+
+                <h3>
+                    AI-Driven Applications
+                </h3>
+
+                <p>
+                    End-to-end application development with
+                    AI integration, automation, voice interfaces,
+                    and intelligent workflows.
+                </p>
+
+            </div>
+
+
+
+            <div class="contribution-card glass-card">
+
+                <div class="contribution-icon">
+                    <i class="fas fa-plug"></i>
+                </div>
+
+                <h3>
+                    REST API Integration
+                </h3>
+
+                <p>
+                    Secure API design, backend architecture,
+                    authentication, database integration,
+                    and scalable service development.
+                </p>
+
+            </div>
+
+
+
+            <div class="contribution-card glass-card">
+
+                <div class="contribution-icon">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                </div>
+
+                <h3>
+                    Cloud Deployment
+                </h3>
+
+                <p>
+                    AWS and Firebase cloud infrastructure
+                    with deployment, monitoring, and
+                    DevOps-oriented practices.
+                </p>
+
+            </div>
+
+
+
+            <div class="contribution-card glass-card">
+
+                <div class="contribution-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+
+                <h3>
+                    Secure Data Handling
+                </h3>
+
+                <p>
+                    Secure authentication, authorization,
+                    encryption concepts, cybersecurity workflows,
+                    and responsible data handling.
+                </p>
+
+            </div>
+
+
+
+            <div class="contribution-card glass-card">
+
+                <div class="contribution-icon">
+                    <i class="fas fa-code-branch"></i>
+                </div>
+
+                <h3>
+                    Code Quality Practices
+                </h3>
+
+                <p>
+                    Git version control, modular architecture,
+                    Agile methodology, clean code principles,
+                    and structured development workflows.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================== CONTACT ==================== -->
+
+<section id="contact" class="section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Contact
+            </span>
+
+            <h2 class="section-title">
+                Let's Connect
+            </h2>
+
+        </div>
+
+
+        <div class="contact-wrapper">
+
+
+            <div class="contact-info glass-card">
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+
+                    <div class="contact-details">
+
+                        <span class="contact-label">
+                            Phone
+                        </span>
+
+                        <a href="tel:+919345992521">
+                            +91 9345992521
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div class="contact-details">
+
+                        <span class="contact-label">
+                            Email
+                        </span>
+
+                        <a href="mailto:jahabarjavith111@gmail.com">
+                            jahabarjavith111@gmail.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+
+                    <div class="contact-details">
+
+                        <span class="contact-label">
+                            LinkedIn
+                        </span>
+
+                        <a href="https://www.linkedin.com/in/abdul-javid-a59048373"
+                           target="_blank">
+                            abdul-javid
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+
+                    <div class="contact-details">
+
+                        <span class="contact-label">
+                            GitHub
+                        </span>
+
+                        <a href="https://github.com/jahabarjavith111-oss"
+                           target="_blank">
+                            jahabarjavith111-oss
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="contact-cta glass-card">
+
+                <h3>
+                    Ready to work together?
+                </h3>
+
+                <p>
+                    Let's build something amazing.
+                    Feel free to reach out for collaborations,
+                    projects, internships, or just to say hello!
+                </p>
+
+                <a href="mailto:jahabarjavith111@gmail.com"
+                   class="btn btn-primary">
+
+                    <span>
+                        Get In Touch
+                    </span>
+
+                    <i class="fas fa-paper-plane"></i>
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================== FOOTER ==================== -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+
+        <div class="footer-logo">
+
+            <span>
+                AJ<span class="logo-dot">.</span>
+            </span>
+
+        </div>
+
+
+        <p class="footer-text">
+            © 2026 Abdul Javid. All rights reserved.
+        </p>
+
+
+        <div class="footer-social">
+
+            <a href="https://www.linkedin.com/in/abdul-javid-a59048373"
+               target="_blank">
+
+                <i class="fab fa-linkedin-in"></i>
+
+            </a>
+
+
+            <a href="https://github.com/jahabarjavith111-oss"
+               target="_blank">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+
+            <a href="mailto:jahabarjavith111@gmail.com">
+
+                <i class="fas fa-envelope"></i>
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+
+
+<!-- JAVASCRIPT -->
+
+<script src="main.js"></script>
+```
+
 </body>
 </html>
+
